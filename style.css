@@ -888,6 +888,12 @@ section{
 
     box-shadow:var(--shadow);
 
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
 }
 
 .btn-route:hover{
