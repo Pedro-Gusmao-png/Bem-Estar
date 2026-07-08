@@ -23,10 +23,6 @@ function iniciarCarrossel(){
 
     const slide = document.querySelectorAll(".slide");
 
-    const prev = document.querySelector(".prev");
-
-    const next = document.querySelector(".next");
-
     const dotsContainer = document.querySelector(".dots");
 
     let index = 0;
@@ -140,28 +136,6 @@ function iniciarCarrossel(){
         iniciar();
 
     }
-
-
-
-    next.addEventListener("click",()=>{
-
-        proximo();
-
-        reiniciar();
-
-    });
-
-
-
-    prev.addEventListener("click",()=>{
-
-        anterior();
-
-        reiniciar();
-
-    });
-
-
 
     iniciar();
 
@@ -593,22 +567,6 @@ function iniciarAvaliacoes(){
         }
 
         atualizar();
-
-    }
-
-    next.onclick=()=>{
-
-        proximo();
-
-        reiniciar();
-
-    }
-
-    prev.onclick=()=>{
-
-        anterior();
-
-        reiniciar();
 
     }
 
