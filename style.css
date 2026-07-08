@@ -665,60 +665,6 @@ section{
 }
 
 /*=============================
-      SETAS DO CARROSSEL
-=============================*/
-
-.arrow{
-
-    position:absolute;
-
-    top:50%;
-
-    transform:translateY(-50%);
-
-    width:55px;
-
-    height:55px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.92);
-
-    color:var(--verde);
-
-    font-size:1.3rem;
-
-    box-shadow:var(--shadow);
-
-    transition:.35s;
-
-    z-index:30;
-
-}
-
-.arrow:hover{
-
-    background:var(--verde);
-
-    color:white;
-
-}
-
-.prev{
-
-    left:25px;
-
-}
-
-.next{
-
-    right:25px;
-
-}
-
-/*=============================
       INDICADORES
 =============================*/
 
@@ -1133,14 +1079,6 @@ section{
     .slider{
 
         height:330px;
-
-    }
-
-    .arrow{
-
-        width:45px;
-
-        height:45px;
 
     }
 
@@ -1933,33 +1871,33 @@ body{
 @media(max-width:768px){
 
     .menu-toggle{
-
         display:flex;
-
     }
 
     .navbar{
-
-        justify-content:space-between;
-
+        height:85px;
+        justify-content:center;
+        align-items:center;
     }
 
     .logo{
+        margin:0;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
 
-        margin:auto;
-
+    .logo img{
+        width:140px;
+        height:auto;
     }
 
     section{
-
         padding:70px 6%;
-
     }
 
     .section-title{
-
         font-size:2rem;
-
     }
 
 }
